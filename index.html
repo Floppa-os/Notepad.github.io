@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Блокнот</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Блокнот</h1>
+
+        <div class="controls">
+            <label>Загрузить файл:
+                <input type="file" id="fileInput" accept=".txt">
+            </label>
+            <button id="saveBtn">Сохранить в файл</button>
+        </div>
+
+        <textarea id="editor" placeholder="Введите текст..."></textarea>
+
+        <div class="status" id="status"></div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
